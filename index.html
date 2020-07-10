@@ -10,8 +10,19 @@
 <p>Used for testing......</p>
 
 <ul>
-<li> <a href="https://github.com/bboze2 rel="me">gh</a> </li>
+<li> <a href="https://github.com/bboze rel="me">Github</a> </li>
 </ul>
+
+      <h4>Try it now</h4>
+      <form action="/auth" method="get" class="well">
+        <div class="form-group">
+          <label for="indie_auth_url">Web Address:</label>
+          <input id="indie_auth_url" type="text" name="me" class="form-control" placeholder="yourdomain.com" />
+        </div>
+        <p><button type="submit" class="btn">Sign In</button></p>
+        <input type="hidden" name="client_id" value="https://bboze.github.io" />
+        <input type="hidden" name="redirect_uri" value="https://bboze.github.io" />
+      </form>
 
 </body>
 </html> 
